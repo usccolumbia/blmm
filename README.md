@@ -24,9 +24,9 @@ The version of Pymatgen package: `pip install pymatgen==2021.2.16`
 
 All above datasets can be downloaded from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964)
 
-### Acknowledgements
+### Source code:
 
-We use the blank language model from [https://github.com/Varal7/blank_language_model/edit/release/README.md](https://github.com/Varal7/blank_language_model)
+We use the blank language model from [https://github.com/Varal7/blank_language_model/edit/release/README.md](https://github.com/Varal7/blank_language_model). Please dowload the code following the link.
 
 ### How to train the model with Crystal Composition Transformer dataset
 
