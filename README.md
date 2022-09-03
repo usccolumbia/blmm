@@ -88,3 +88,8 @@ If you use our work, please cite:
   year={2022}
 }
 ```
+
+
+### Acknowledgement
+
+Our code is derived from the [Blank Language Model](https://github.com/Varal7/blank_language_model) for text generation. See [Paper](https://arxiv.org/abs/2002.03079)
