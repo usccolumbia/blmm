@@ -1,4 +1,4 @@
-# Crystal-Composition-Transformer
+# BLMM  Crystal-Composition-Transformer
 This repository contains the code and datasets for the paper:
 
 [**Crystal Transformer: Self-learning neural language model for Generative and Tinkering Design of Materials**](https://arxiv.org/pdf/2204.11953.pdf)  
