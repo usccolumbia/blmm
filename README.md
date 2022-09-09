@@ -66,6 +66,10 @@ Crystal Composition Transformer
            ├── mp_train.txt
            ├── mp_valid.txt
            ├── mp_test.txt
+   ├── model
+           ├── hparams.yaml
+           ├── icsd-mix-model.ckpt
+           ├── vocab.txt
    └── README.md
 ```
 
