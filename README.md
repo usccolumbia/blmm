@@ -22,7 +22,7 @@ The version of Pymatgen package: `pip install pymatgen==2021.2.16`
 | Valid | 1336     | 9080     | 2228   | 986       | 5413      | 1593    |
 | Test  | 1336     | 9080     | 2228   | 986       | 5413      | 1593    |
 
-All above datasets can be downloaded from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964)
+All above datasets and a pretrained model files can be downloaded from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964)
 
 ### Source code:
 
