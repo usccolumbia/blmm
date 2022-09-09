@@ -38,7 +38,7 @@ python test.py --checkpoint model/icsd-mix-model.ckpt --sample 1000 --decode sam
 ```
 
 
-### How to train the model with Crystal Composition Transformer dataset
+### How to train your own model with Crystal Composition Transformer datasets
 
 #### Download Data
 Download datasets from the above link, then unzip it under `BLMM_dataset` folder.
