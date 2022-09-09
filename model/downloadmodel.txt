@@ -1,1 +1,3 @@
 
+Download the model files from https://figshare.com/articles/dataset/BLMM_dataset/20489964
+and unzip the files into this folder
