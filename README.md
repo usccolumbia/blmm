@@ -34,7 +34,7 @@ We use the blank language model from [https://github.com/Varal7/blank_language_m
 ### How to generate new materials composition using our pretrained model:
 
 ```
-python test.py --checkpoint model/icsd-mix-model.ckpt --sample 1000 --decode sample --output sample.txt
+python test.py --checkpoint BLMM_model/icsd-mix-model.ckpt --sample 1000 --decode sample --output sample.txt
 ```
 
 
