@@ -28,10 +28,21 @@ All above datasets can be downloaded from [Figshare](https://figshare.com/articl
 
 We use the blank language model from [https://github.com/Varal7/blank_language_model/edit/release/README.md](https://github.com/Varal7/blank_language_model). Please dowload the code following the link.
 
+
+
+
+### How to generate new materials composition using our pretrained model:
+
+```
+python test.py --checkpoint checkpoints/icsd_mix/blm/lightning_logs/version_0/checkpoints/epoch\=???.ckpt \
+--sample 1000 --decode sample --output sample.txt
+```
+
+
 ### How to train the model with Crystal Composition Transformer dataset
 
 #### Download Data
-Download datasets from the above link, then unzip it under `BLMM_dataset.zip` folder.
+Download datasets from the above link, then unzip it under `BLMM_dataset` folder.
 After the above, the directory should be:
 ```
 Crystal Composition Transformer
@@ -58,6 +69,8 @@ Crystal Composition Transformer
            ├── mp_test.txt
    └── README.md
 ```
+
+
 
 #### How to train the model
 An example is to train a BLMM model on the icsd_mix dataset. 
