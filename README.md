@@ -2,7 +2,7 @@
 This repository contains the code and datasets for the paper:
 
 [**Crystal Transformer: Self-learning neural language model for Generative and Tinkering Design of Materials**](https://arxiv.org/pdf/2204.11953.pdf)  
-*Lai Wei, Qinyang Li, Yuqi Song, Edirisuriya M. D. Siriwardane, Stanislav Stefanov, and Jianjun Hu*
+*Lai Wei, Qinyang Li, Yuqi Song, Stanislav Stefanov,Rongzhi Dong, Nihang Fu, Edirisuriya M. D. Siriwardane, Fanglin Chen and Jianjun Hu*
 
 by <a href="http://mleg.cse.sc.edu" target="_blank">Machine Learning and Evolution Laboratory</a>, University of South Carolina.
 
