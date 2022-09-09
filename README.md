@@ -26,7 +26,7 @@ All above datasets and a pretrained model files can be downloaded from [Figshare
 
 ### Source code:
 
-We use the blank language model from [[https://github.com/Varal7/blank_language_model](https://github.com/Varal7/blank_language_model)](https://github.com/Varal7/blank_language_model). Please dowload the code following the link.
+We use the blank language model from [https://github.com/Varal7/blank_language_model](https://github.com/Varal7/blank_language_model)]. Please dowload the code following the link.
 
 
 
