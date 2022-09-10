@@ -33,6 +33,12 @@ We use the blank language model from [https://github.com/Varal7/blank_language_m
 
 ### How to generate new materials composition using our pretrained model:
 
+Download the source code from [https://github.com/Varal7/blank_language_model](https://github.com/Varal7/blank_language_model)
+
+Download the pretrained model files BLMM_model.zip from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964) and put it inside the source code folder.
+
+unzip the BLMM_model.zip file
+
 ```
 cp BLMM_model/hparams.yaml ../
 cp BLMM_model/vocab.txt ../
@@ -101,7 +107,7 @@ If you use our work, please cite:
 ```bibtex
 @article{wei2022crystal,
   title={Crystal Transformer: Self-learning neural language model for Generative and Tinkering Design of Materials},
-  author={Wei, Lai and Li, Qinyang and Song, Yuqi and Stefanov, Stanislav and Siriwardane, Edirisuriya and Chen, Fanglin and Hu, Jianjun},
+  author={Wei, Lai and Li, Qinyang and Song, Yuqi and Stefanov, Stanislav, rongzhi dong, nihang fu, and Siriwardane, Edirisuriya and Chen, Fanglin and Hu, Jianjun},
   journal={arXiv preprint arXiv:2204.11953},
   year={2022}
 }
