@@ -6,13 +6,27 @@ This repository contains the code and datasets for the paper:
 
 by <a href="http://mleg.cse.sc.edu" target="_blank">Machine Learning and Evolution Laboratory</a>, University of South Carolina.
 
-### Python Dependencies
-Install `Pytorch` from [Pytorch web](https://pytorch.org/get-started/previous-versions/) given your python & cuda version
+### Running environment set up
 
-The code is based on the [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) framework. It has been tested in `PyTorch 1.6.0`, `PyTorch Lightning 1.0.7`
+The BLM language model code we used is from [here](https://github.com/Varal7/blank_language_model), which is based on the [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) framework. It has been tested in PyTorch 1.6.0, PyTorch Lightning 1.0.7
 
-The version of Pymatgen package: `pip install pymatgen==2021.2.16`
+Install `pytorch` from [pytorch web](https://pytorch.org/get-started/previous-versions/) based on your python & cuda version
 
+```
+conda create -n blm
+conda activate blm
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
+conda install -c conda-forge pytorch-lightning=1.0.7
+
+or for Nvidia 3090
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install pytorch-lightning==1.0.7
+```
+
+Install Pymatgen package: 
+```
+pip install pymatgen==2021.2.16
+```
 ### Datasets for training Crystal Composition Transformer
 
 |       | ICSD-mix | OQMD-mix | MP-mix | ICSD-pure | OQMD-pure | MP-pure |
@@ -28,14 +42,16 @@ All above datasets and a pretrained model files can be downloaded from [Figshare
 
 We use the blank language model from [https://github.com/Varal7/blank_language_model](https://github.com/Varal7/blank_language_model). Please dowload the code following the link.
 
+```
+git clone https://github.com/Varal7/blank_language_model.git
+cd blank_language_model
 
+```
 
 
 ### How to generate new materials composition using our pretrained model:
 
-Download the source code from [https://github.com/Varal7/blank_language_model](https://github.com/Varal7/blank_language_model)
-
-Download the pretrained model files BLMM_model.zip from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964) and put it inside the source code folder.
+Download the pretrained model files BLMM_model.zip from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964) and put it inside the source code folder blank_language_model.
 
 unzip the BLMM_model.zip file
 
