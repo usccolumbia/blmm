@@ -61,8 +61,7 @@ cp blmm-model/hparams.yaml ./
 cp blmm-model/vocab.txt ./
 
 python test.py --checkpoint blmm-model/icsd-mix-model.ckpt --sample 1000 --decode sample --output sample.txt
-or
-python test.py --checkpoint blmm-model/icsd-mix-model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
+
 ```
 
 
