@@ -71,8 +71,8 @@ python test.py --checkpoint blmm-model/icsd-mix-model_epoch2249.ckpt --sample 10
 #### Download Data
 Download datasets from the above link, then unzip it under `BLMM_dataset` folder.
 After the above, the directory should be:
-
-blank_language_model
+```
+blank_language_model 
    ├── BLMM_dataset
        ├── mix_dataset
            ├── icsd_train.txt
