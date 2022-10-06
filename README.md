@@ -23,9 +23,10 @@ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f htt
 pip install pytorch-lightning==1.0.7
 ```
 
-Install Pymatgen package: 
+Install Pymatgen and ninja: 
 ```
 pip install pymatgen==2021.2.16
+pip install ninja
 ```
 ### Datasets for training Crystal Composition Transformer
 
