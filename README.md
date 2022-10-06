@@ -94,7 +94,7 @@ blank_language_model
            ├── mp_train.txt
            ├── mp_valid.txt
            ├── mp_test.txt
-   ├── blmm_model
+   ├── blmm-model
            ├── hparams.yaml
            ├── icsd-mix-model.ckpt
            ├── vocab.txt
