@@ -57,12 +57,12 @@ unzip the BLMM_model.zip file
 
 ```
 cd blank_language_model
-cp blmm-model/hparams.yaml ../
-cp blmm-model/vocab.txt ../
+cp blmm-model/hparams.yaml ./
+cp blmm-model/vocab.txt ./
 
 python test.py --checkpoint blmm-model/icsd-mix-model.ckpt --sample 1000 --decode sample --output sample.txt
 or
-python test.py --checkpoint blmm_model/icsd_mix_model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
+python test.py --checkpoint blmm-model/icsd-mix-model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
 ```
 
 
@@ -71,8 +71,8 @@ python test.py --checkpoint blmm_model/icsd_mix_model_epoch2249.ckpt --sample 10
 #### Download Data
 Download datasets from the above link, then unzip it under `BLMM_dataset` folder.
 After the above, the directory should be:
-```
-Crystal Composition Transformer
+
+blank_language_model
    ├── BLMM_dataset
        ├── mix_dataset
            ├── icsd_train.txt
