@@ -51,14 +51,14 @@ cd blank_language_model
 
 ### How to generate new materials composition using our pretrained model:
 
-Download the pretrained model files BLMM_model.zip from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964) and put it inside the source code folder blank_language_model.
+Download the pretrained model files blmm_model.zip from [Figshare](https://figshare.com/articles/dataset/BLMM_dataset/20489964) and put it inside the source code folder blank_language_model.
 
 unzip the BLMM_model.zip file
 
 ```
-cp BLMM_model/hparams.yaml ../
-cp BLMM_model/vocab.txt ../
-python test.py --checkpoint BLMM_model/icsd_mix_model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
+cp blmm_model/hparams.yaml ../
+cp blmm_model/vocab.txt ../
+python test.py --checkpoint blmm_model/icsd_mix_model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
 ```
 
 
