@@ -56,8 +56,12 @@ Download the pretrained model files blmm_model.zip from [Figshare](https://figsh
 unzip the BLMM_model.zip file
 
 ```
-cp blmm_model/hparams.yaml ../
-cp blmm_model/vocab.txt ../
+cd blank_language_model
+cp blmm-model/hparams.yaml ../
+cp blmm-model/vocab.txt ../
+
+python test.py --checkpoint blmm-model/icsd-mix-model.ckpt --sample 1000 --decode sample --output sample.txt
+or
 python test.py --checkpoint blmm_model/icsd_mix_model_epoch2249.ckpt --sample 1000 --decode sample --output sample.txt
 ```
 
